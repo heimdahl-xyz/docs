@@ -15,7 +15,7 @@ https://api.heimdahl.xyz/v1/transfers/list/{path}
 The path follows one of these two patterns:
 
 1. `{chain}.{network}.{token}.{from}.{to}.all`
-2. `{chain}.{network}.{token}.{address}.all.all`
+2. `{chain}.{network}.{token}.{wallet}.all`
 
 Where:
 - `chain`: Blockchain (ethereum, polygon, base, binance, solana, arbitrum, tron)
@@ -23,8 +23,8 @@ Where:
 - `token`: Token symbol (USDT, USDC, WETH, etc.)
 - `from`: Sender address (0x...)
 - `to`: Recipient address (0x...)
-- `address`: Single address to query (either as sender or receiver)
-- The final parameter is currently set to `all` which is reserved for filter by amount bucket it belogns to (small, large or whale depending on particular tokens circulating supply)
+- `wallet`: Single wallet to query (either as sender or receiver)
+- The final parameter is currently set to `all` which is reserved for filter by amount bucket it belonss to (small, large or whale depending on particular tokens circulating supply)
 
 ## Example Usage
 
