@@ -24,7 +24,7 @@ Where:
 - `from`: Sender address (0x...)
 - `to`: Recipient address (0x...)
 - `address`: Single address to query (either as sender or receiver)
-- The final parameter is currently set to `all` for all paths
+- The final parameter is currently set to `all` which is reserved for filter by amount bucket it belogns to (small, large or whale depending on particular tokens circulating supply)
 
 ## Example Usage
 
