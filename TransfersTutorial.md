@@ -88,7 +88,7 @@ curl -H "Authorization: Bearer YOUR_API_KEY" "https://api.heimdahl.xyz/v1/transf
 
 ```bash
 # Get all USDT transfers from a specific address on Tron mainnet
-curl -H "Authorization: Bearer YOUR_API_KEY" "https://api.heimdahl.xyz/v1/transfers/list/tron.mainnet.usdt.TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t.all.all" | jq
+curl -H "Authorization: Bearer YOUR_API_KEY" "https://api.heimdahl.xyz/v1/transfers/list/tron.mainnet.usdt.TJtAsx5cGmcmjpTqh4h9cZ8wLT4JQB7pw7.all.all" | jq
 ```
 
 #### WETH Examples
